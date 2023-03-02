@@ -1,0 +1,83 @@
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{listings}
+\usepackage{xcolor}
+\usepackage{lineno}
+\usepackage{hyperref}
+\usepackage{graphicx}
+\usepackage[legalpaper, portrait, margin=1.4in]{geometry}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+
+
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+
+\lstdefinestyle{mystyle}{
+    backgroundcolor=\color{backcolour},   
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\ttfamily\footnotesize,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                 
+    numbers=left,                    
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2
+}
+\lstset{literate={μ}{{$\mu$}}1}
+\lstset{style=mystyle}
+
+
+\fancyhf{}
+\setlength{\headheight}{54.07076pt}
+\addtolength{\topmargin}{-11.74373pt}
+\lhead[\leftmark]{
+    Jorge Esteban - Daniel Carrizo 
+    \hfill
+    \includegraphics[width=0.3\textwidth]{LogoEINA.jpg}\par
+}
+\cfoot[]{
+    \hrule
+    \vspace{0.5cm}
+    \thepage
+}
+
+\begin{document}
+\begin{titlepage}
+    \centering
+    {\bfseries\LARGE Escuela Ingeniería y Arquitectura \par}
+    \vspace{1cm}
+    {\includegraphics[width=0.5\textwidth]{LogoEINA.jpg}\par}
+    \vspace{1cm}
+    {\scshape\Large Facultad de Ingeniería Informática \par}
+    \vspace{3cm}
+    {\scshape\Huge Monopoly versión informática \par}
+    \vspace{3cm}
+    {\itshape\Huge Proyecto Software \par}
+    \vfill
+    {\Large Autores: \par}
+    {\Large Martina Gracia - 795809 \par}
+    {\Large Luna Álvarez - 815976 \par}
+    {\Large Lucía Beltrán - 816117 \par}
+    {\Large Pilar Fierro - 819658 \par}
+    {\Large Daniel Carrizo - 821674 \par}
+    {\Large Antoine Gajan - 894825 \par}
+    {\Large Harry Broudehoux - 895492 \par}
+    \vfill
+    {\Large Enero 2023 \par}
+\end{titlepage}
+\tableofcontents
+\clearpage
+
+
+\end{document}
